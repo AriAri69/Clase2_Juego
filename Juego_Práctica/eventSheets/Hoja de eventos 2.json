@@ -1,0 +1,32 @@
+{
+	"name": "Hoja de eventos 2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 613945548865564,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Sprite"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 220454884617239,
+					"parameters": {
+						"layout": "Escena 1"
+					}
+				}
+			],
+			"sid": 548286122398429
+		}
+	],
+	"sid": 388078610209369
+}
